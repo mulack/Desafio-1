@@ -1,10 +1,5 @@
-// Solicitar o nome do herói
 let nome = prompt("Digite o nome do herói:");
-
-// Solicitar a quantidade de XP do herói
 let xp = parseInt(prompt("Digite a quantidade de XP do herói:"), 10);
-
-// Determinar o nível do herói com base na quantidade de XP
 let nivel;
 
 if (xp < 1000) {
@@ -25,5 +20,4 @@ if (xp < 1000) {
     nivel = "Radiante";
 }
 
-// Exibir a mensagem com o nome e o nível do herói
 alert(`O Herói de nome ${nome} está no nível de ${nivel}`);
